@@ -1,0 +1,254 @@
+body{background-color:white;}
+#cf2 {
+  position:relative;
+  height:auto;
+  width:100%;
+  margin:0 auto;
+}
+#cf2 img {
+ position:absolute;
+  width:50%;
+  height:auto;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.transparent {
+opacity:0;
+}
+#cf2 {
+	cursor:pointer;
+ /*cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important; /* End http://www.cursors-4u.com */
+background-color:white;
+}
+body{background-color:white;
+color:black;}
+
+.col-md-6{
+	display:flex;
+	text-align:center;
+	 justify-content:flex-start;
+	 flex-wrap:wrap;
+	 margin-top:50px;
+	 flex-direction:column;
+	 margin-bottom:50px;
+	 background-color:white;
+	 color:black;
+}
+.row{
+	min-height:300px;
+	background-color:white;
+	color:black;
+}
+.index {color:black;margin:30px;}
+.jumbotron{background-color:white;}
+
+.rotate180 {
+       -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+       transform: rotate(180deg);
+      }
+	  
+	  .tekst2 {display:none;}
+  @media(max-width:768px)
+  {
+	  .tekst{display:none;
+	 }
+	  .tekst2{display:block;
+	  background-color:white;
+	  padding:10px;
+	  color:black;}
+	  #cf2 img{width:100%;}
+  }
+  
+  /*#klik img{background-image:url("../1a.jpg");background-size:cover;display:block; margin:0 auto;width:80%;height:auto;overflow:hidden; background-repeat: no-repeat;
+  background-color: #cccccc;}*/
+  
+ 
+  
+  #klik{
+	  background-image:url("../slike/1a.jpg");
+	 background-attachment:fixed;
+	/* width:100%;
+	height: auto;*/
+	background-color:white;
+	background-size:cover;
+ 	background-position:center;
+	background-repeat: no-repeat; 
+	display:flex;
+	text-align:center;
+	height:100vh;
+	width:auto;
+	text-shadow:2px 2px black;
+	cursor:cell; 
+	/*cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important;*/
+	
+  }
+  
+  #frekvence{color:#e9ecef;font-size:1.5em;}
+  
+  /*Ie 10/11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
+{
+    html{
+        overflow: hidden;
+        height: 100%;    
+    }
+    body{
+        overflow: auto;
+        height: 100%;
+    }
+}
+
+<!--[if lte IE 9]>
+    <style type=text/css>
+       html{
+           overflow: hidden;
+           height: 100%;    
+       }
+       body{
+           overflow: auto;
+           height: 100%;
+       }
+    </style>
+<![endif]-->
+/*
+.jumbotron{
+	height:calc(100vh-8em);
+	padding:4em;
+	color:rgba(255,255,255,0.75);
+}
+
+
+.line {
+	position:relative;
+	top:50%;
+	width:25em;
+	margin:0 auto;
+	border-right:2px solid rgba(255,255,255,0.75);
+	font-size:150%;
+	text-align:center;
+	white-space:no-wrap;
+	overflow:hidden;
+	transform:translateY(-50%);
+	
+	
+	
+}
+
+
+.anim-typewriter {
+	
+	animation:typewriter 4s steps(100) 1s 1 normal both,
+	blinkTextCursor 500ms steps(100) infinitive normal;
+	
+}
+@keyframes typewriter{
+	from {
+		width:0;}
+	to {
+		width: 16em;
+	}
+}
+@keyframes blinkTextCursor{
+	from {
+	border-right-color: rgba(255,255,255,0.75);}
+	
+	to {
+		border-right-color:transparent;
+		
+	}
+}*/
+/*
+.typewriter p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+ /* border-right: 0.15em solid orange; /* The typwriter cursor */
+ /* white-space: nowrap; /* Keeps the content on a single line */
+ /* margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ /* letter-spacing: 0.15em; /* Adjust as needed */
+ /* animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+/*@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* The typewriter cursor effect */
+/*@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: orange; }
+}*/
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+	animation-delay:10s;
+    white-space: nowrap;
+    font-size: 1em;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+	width:100%;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+@media screen and (min-width:300px) and (max-width: 768px){
+
+    #cf2{width:100%;background-color:white;color:black;}
+}
+@media screen and (max-width: 300px){
+
+    #cf2{width:100%;}
+}
+#strelica{float:right;width:15%;height:auto;}
+
+
+#strelica2{
+  width:10vw;
+  height:auto;
+ -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+       transform: rotate(180deg);
+
+}
+
+#strelica3{
+  height:7vh;
+  width:auto;
+  float:right;
+  margin:15px;
+}

@@ -1,0 +1,246 @@
+#cf2 {
+  position:relative;
+  height:50vh;
+  width:auto;
+  margin:0 auto;
+  text-align:left;
+float:left;
+}
+#cf2 img {
+ position:absolute;
+  width:auto;
+  height:50vh;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.transparent {
+opacity:0;
+}
+#cf2 {
+cursor:pointer; /*cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.png), auto ;
+*/
+/* Start http://www.cursors-4u.com  cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important; /* End http://www.cursors-4u.com 
+background-color:#414141;*/
+}
+body {background-color:white;}
+.row{background-color:white;}
+
+.col-md-6{
+	display:flex;
+	text-align:center;
+	 justify-content:flex-start;
+	 flex-wrap:wrap;
+	 margin-top:50px;
+	 flex-direction:column;
+	 margin-bottom:50px;
+	 background-color:transparent;
+	
+}
+.row{
+	min-height:300px;
+	background-color:white;
+    height:auto;
+}
+.index {color:#e9ecef;margin:30px;}
+.jumbotron{background-color:white;}
+
+.rotate180 {
+       -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+       transform: rotate(180deg);
+      }
+	  
+	  .tekst2 {display:none;}
+  @media(max-width:768px)
+  {
+	  .tekst{display:none;
+	 }
+	  .tekst2{display:block;
+	  background-color:#e9ecef;
+	  padding:10px;}
+	   #cf2 img{ 
+  height:50vh;width:auto;}
+  #cf2{display:block;}
+  }
+  
+  /*#klik img{background-image:url("../1a.jpg");background-size:cover;display:block; margin:0 auto;width:80%;height:auto;overflow:hidden; background-repeat: no-repeat;
+  background-color: #cccccc;}*/
+  
+ 
+  
+  #klik{
+	  background-image:url("../1a.jpg");
+	 background-attachment: fixed;
+	/* width:100%;
+	height: auto;*/
+	background-size:cover;
+ 	background-position: center;
+	background-repeat: no-repeat; 
+	display:flex;
+	text-align:center;
+	height:100vh;
+	width:auto;
+	text-shadow: 2px 2px black;
+	cursor:cell; 
+	/*cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important;*/
+  }
+  
+  #frekvence{color:#e9ecef;font-size:1.5em;}
+  
+  /*Ie 10/11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
+{
+    html{
+        overflow: hidden;
+        height: 100%;    
+    }
+    body{
+        overflow: auto;
+        height: 100%;
+    }
+}
+
+<!--[if lte IE 9]>
+    <style type=text/css>
+       html{
+           overflow: hidden;
+           height: 100%;    
+       }
+       body{
+           overflow: auto;
+           height: 100%;
+       }
+    </style>
+<![endif]-->
+
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+	animation-delay:10s;
+    white-space: nowrap;
+    font-size: 1em;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+	width:100%;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+#cf1 {
+  position:relative;
+  height:100vh;
+  width:auto;
+  display:inline-block;
+  float:right;
+  overflow:hidden;
+text-align:left;
+float:left;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+}
+#cf1 img {
+ position:absolute;
+  width:auto;
+  height:100vh;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  margin:auto;
+  background-color:transparent;
+}
+
+#cf1 img.transparent {
+opacity:0;
+}
+#cf1 {
+cursor:pointer;/* cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.png), auto ;
+*/
+/* Start http://www.cursors-4u.com  cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important; /* End http://www.cursors-4u.com */
+background-color:white;
+}
+h1,h3{text-align:left;
+}
+
+/*#cf1:hover{border:5px solid black;}*/
+	
+}
+
+#cf3 {
+  position:relative;
+  height:100%;
+  width:100%;
+  display:inline-block;
+  float:right;
+  overflow:hidden;
+text-align:left;
+float:left;
+/*  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);*/
+}
+#cf3 img {
+ position:absolute;
+  width:100%;
+  height:auto;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  margin:auto;
+  background-color:transparent;
+}
+
+#cf3 img.transparent {
+opacity:0;
+}
+#cf3 {
+cursor:pointer;}
+
+
+#strelica2{
+  width:10vw;
+  height:auto;
+ -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+       transform: rotate(180deg);
+
+}
+
+#strelica3{
+  height:7vh;
+  width:auto;
+  float:right;
+  margin:15px;
+}

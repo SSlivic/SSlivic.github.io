@@ -1,0 +1,94 @@
+body{
+/*background-image:url("../papir.jpg");*/
+background-color: white;
+
+}
+h3,h1{text-align:left;padding:20px;}
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 2s steps(18, end);/* blink .75s step-end;*/
+	
+    white-space: nowrap;
+    font-size: 1em;
+    font-weight: 700;
+    /*border-right: 4px solid orange;*/
+    box-sizing: border-box;
+	width:100%;
+}
+#2{display:inline-block;
+animation: pasus 5s}
+.typewriter-text2 {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+  animation: typing 5s steps(34,end);/* blink .75s step-end;*/
+  animation-delay: 3s;
+    white-space: nowrap;
+    font-size: 1em;
+    font-weight: 700;
+   /* border-right: 4px solid orange;*/
+    box-sizing: border-box;
+  width:100%;
+}
+/*.typewriter-text2:before{display: none;}*/
+@keyframes typing {
+    from { display:none;
+        width: 0%;
+         /*opacity: 0;*/
+    }
+    to { /*opacity:1;*/
+        width: 100%;
+        display:block;
+    }
+}
+/*
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+	
+	*/
+	#rukav{
+    
+float:right;
+       margin:50px;
+  }
+
+/*.typewriter-text2{
+  display: none;
+}*/
+/*@keyframes typing{
+  0%   {display:none;}
+   
+  100% {display:inline-block;}
+}*/
+.type{font-weight: bold;
+
+
+    font-family: 'Marck Script', cursive;
+font-size: 2em;
+padding:25px;
+
+}
+.type .char{
+
+  visibility: hidden;
+  animation: animate 0s steps(2) forwards;
+  animation-delay: calc(0.04s * var(--char-index));
+}
+@keyframes animate{
+0%{visibility: hidden;}
+100%{visibility: visible;}
+}
+#strelica{float:right;width:15%;height:auto;}

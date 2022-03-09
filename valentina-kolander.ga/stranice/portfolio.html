@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta  charset="utf-8">
+<title>Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Sanja Šlivić">
+	<link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet"> 
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="../css/style.css">
+<link type="text/css" rel="stylesheet" href="../css/style2.css">
+<link type="text/css" rel="stylesheet" href="../css/splitting.css">
+
+</head>
+<body onload>
+<h1 style="z-index:1;">Valentina Kolander</h1>
+<h3 style="z-index:1;">modna oblikovalka</h3>
+
+	<a href="../index.html"><img id="strelica3" src="../slike/strelica_gore.png" alt="drugi list"></a>
+<div class="jumbotron">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="type" data-splitting><p> ... V končni fazi pa je v mojem primeru frekvenčnost</p><p>samo točen statističen podatek,<br> pridobljen na podlagi pomankljivih informacij.</p>
+				<p>Skozi sam proces mojega dela je večkrat moč čutiti kakšen <span style="color:#c00f16;font-family:arial;padding:5px;"> Herz</span></p>.<!--<p> Proces ponavlanja se kaže v trenutkih in momentih, kadar razmišljam o svoji kolekciji. Sam spekter teh frekvenc obsega moje občutke v danem momentu.</p>
+				<p>Frekvenčni razpon je zame tukaj neomejen in popolnoma odprt za nove izzive.</p>
+<p>Frekvenčni prenos energije sem prejela skozi šivalni stroj. Igla z blago frekvenco nežno in hitro udarja v manjšo luknjo skozi blago. Tako kot so tudi misli udarjale skozi sito v moje možganske celice. Na tem mestu moj um ustvarja frekventno zastavljena vprašanja – odgovori pa si tako obseženi, da so težko razumljivi, če ne lovimo enake valovne dolžine.</p>-->
+			</div>
+	    </div>
+		<div class="col-md-6">
+			<div id="cf1">
+				<img class="bottom" src="../slike/2.jpg"/>
+				<img class="top" src="../slike/2a.jpg"/>
+			</div>
+		</div>
+	</div></div>
+    <div class="jumbotron">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="type" data-splitting>
+			<p> Proces ponavlanja se kaže v trenutkih in momentih, kadar razmišljam o svoji kolekciji. Sam spekter teh frekvenc obsega moje občutke v danem momentu.</p>
+			</div>
+		</div>
+	
+		<div class="col-md-6">
+			<div id="cf1">
+				<img class="bottom" src="../slike/2.jpg"/>
+				<img class="top" src="../slike/2a.jpg"/>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="jumbotron">
+	<div class="row">
+		<div class="col-md-6">
+			<div id="cf1">
+				<img class="bottom" src="../slike/2.jpg" />
+				<img class="top" src="../slike/2a.jpg" />
+			</div>
+
+		</div>
+		<div class="col-md-6">
+			<div class="type" data-splitting>
+				<p>Proces ponavlanja se kaže v trenutkih in momentih, kadar razmišljam o svoji kolekciji. Sam spekter teh frekvenc obsega moje občutke v danem momentu.</p>
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+
+
+
+<a href="pocetna.html"><img id="strelica2" src="../slike/strelica.png" alt="drugi list"></a>
+
+
+	<a href="../stranice/strana_3.html"><img id="strelica" src="../slike/strelica.png" alt="drugi list"></a>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
+	 $(document).ready(function () {
+          // Hide the div
+         $("2").hide();
+          // Show the div after 5s
+        $("2").delay(6000).show();
+</script>
+<!--<script type="text/javascript">
+setTimeout(dva, 2000);</script>-->
+ <script src="../js/splitting.js"></script>
+ <script> Splitting(); </script>
+<script>
+$(document).ready(function() {
+  $("#cf1").click(function() {
+  $("#cf1 img.top").toggleClass("transparent");
+});
+});
+
+$(document).ready(function() {
+  $("#klik").click(function() {
+  $("#klik").css("background-image","url('2.jpg')" ); 
+});
+
+
+});
+
+$(document).ready(function() {
+  $("#klik").click(function() {
+  $("#frekvence").css("background-color","#212529" ); 
+});
+
+
+});
+</script>
+</body>
+
+</html>
