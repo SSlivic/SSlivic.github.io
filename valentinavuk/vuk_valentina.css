@@ -1,0 +1,252 @@
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.naslov{
+    font-family: 'Pacifico', cursive;
+
+}
+.naslov:hover {
+	color:#0056b3;
+	cursor:default;
+	transition: 2s;
+}
+ #ciscenje {
+	background-image:url("img/sto_.jpg");
+	 background-attachment: fixed;
+	height: 720px;
+ 	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	display: :flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+ text-shadow: 2px 2px black;
+
+}
+#ciscenje:hover{
+	color:#80ced6;
+	transition:2s;
+
+}
+
+.box-naslov {
+	max-height:700px;
+	height:300px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.box-podnaslov {
+	max-height:700px;
+	height:300px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+h2 {margin-top: 25px;
+	text-align: center;
+	font-size: 3em;
+
+}
+p {
+	margin-top:30px;
+	text-align: right;
+	font-size: 1.5em;
+	font-style: italic;
+}
+/*
+.col-md-8 .box {
+	height:720px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	cursor:default;
+
+}
+ .col-md-8 .box h2 {
+	font-size:3.8em;
+	font-weight: bold 700;
+	text-align:center;
+
+
+}
+.col-md-8 .box h2:hover,p:hover {
+	color:#80ced6;
+	transition:2s;
+
+
+}
+.col-md-8 .box p {
+margin-left: 6px;
+font-size: 1.5em;
+
+}
+.col-md-4 .box1{
+	height:300px;
+	display:flex;
+	justify-content:flex-end;
+	align-items:flex-end;
+
+
+
+}
+.col-md-4 .box1 p {
+	font-size: :2em;
+	font-style: italic;
+	
+}
+*/
+
+
+footer{
+	height: 80px;
+	background-color: gray;
+	padding: 15px;
+	font-size: 0.8em;
+	cursor: default;
+}
+footer p {
+	float:right;
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom:20px;
+}
+footer:hover{
+color:#80ced6;
+	transition:2s;
+
+}
+header ul{
+	list-style-type:none;
+	
+}
+header ul li {
+	display:inline-block;
+	font-size:1.7em;
+	float:right;
+	text-align: center;
+}
+
+.box2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#klima{
+	background-image:url("img/klima_.jpg");
+	background-attachment: fixed;
+	height: 720px;
+ 	background-position:center top;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	color:white;
+ text-shadow: 2px 2px black;
+}
+#klima:hover{
+	color:#80ced6;
+	transition:2s;
+	cursor: default;
+}
+#cenik1{
+	height: 300px;
+}
+
+#cenik2{
+	height: 300px;
+}
+/*img{
+	
+	 position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: rgba(0,0,0,0.2);
+}*/
+a {
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	text-decoration: none;
+	transition: 1s;
+	
+
+}
+nav{
+	float:right;
+}
+.col-md-6 {
+	display:flex;
+	justify-content: :center;
+	padding: 20px;
+		
+}
+
+.col-md-6 p {
+	display:flex;
+	justify-content: :center;
+	align-items: center;
+	text-align: center;
+	font-size:1.2em;
+}
+
+.kontakt {
+	list-style-type: none;
+
+}
+.kontakt:hover {
+	color: #0056b3;
+	transition:2s;
+}
+ul:hover{
+	color:#0056b3;
+	transition:2s;
+	cursor: default;
+}
+
+#pasus:hover{
+color:#0056b3;
+transition:2s;
+cursor:default;
+}
+
+#strelica{
+	display:none;
+	position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: rgba(0,0,0,0.2);
+    border:none;
+    outline:none;
+    z-index: 99;
+    cursor: pointer;
+}
+#strelica:hover{
+	background-color:rgba(0,0,0,0.4); 
+}
+
+/*@media only screen and (max-width: 600px) {
+   .box{
+   	width:100%;
+   	#ciscenje{
+   		width:100%;
+   	}
+   }*/
+}
+#box1{
+	height:720px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
