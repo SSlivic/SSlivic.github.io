@@ -1,0 +1,192 @@
+h2 {
+text-align: center;
+
+color:white;
+background-color: black;
+margin-bottom: 150px;
+
+}
+a{
+	text-decoration: none;
+	/*color:white;
+	text-shadow: 3px 3px red;*/
+}
+
+p{margin:25px;
+padding:10px;
+line-height: 1.3em;
+justify-content:;
+font-size: 20px;}
+
+#box1{
+	width:35px;
+	height:50px;
+	position: relative;
+
+	background-image: url("bug.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	animation-name: spider1;
+	animation-duration: 70s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+
+@keyframes spider1{
+	0%{top:300px; left:100px;}
+	
+	25%{top:100px;left:300px;}
+	50%{top: 50px;left:200px;}
+	
+	100%{top:300px; left:100px;}
+
+}
+#box2{
+	width:40px;
+	height:60px;
+	position: relative;
+
+	background-image: url("bug.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	animation-name: spider2;
+	animation-duration: 45s;
+	animation-iteration-count: infinite;
+	animation-delay: 3s;
+	
+}
+
+@keyframes spider2{
+	0%{top:200px; left:200px;}
+	
+	25%{top:50px;left:450px;}
+	50%{top: 100px;left:300px;}
+	
+	100%{top:200px; left:200px;}
+
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebox {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#mySidebox1{
+z-index: 2;
+}
+#mySidebox2{
+	z-index: 3;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidebox  {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidebox .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  margin-right:30px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+.sidebox{padding-top: 15px;}
+  .sidebox a {font-size: 18px;}
+
+}
+
+	
+.paragraf{display: block;
+	margin:auto;
+	text-align:justify;
+margin-left:50px;}
+
+#box3{
+	width:40px;
+	height:60px;
+	position: relative;
+
+	background-image: url("bug.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	animation-name: spider3;
+	animation-duration: 50s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+	
+}
+
+@keyframes spider3{
+	0%{top:400px; left:500px;;}
+	
+	25%{top:50px;right:450px;}
+	50%{top: 100px;right:300px;}
+	
+	100%{top:400px; left:500px;}
+
+}
+.promasaj{
+
+	color:red;font-size:2em;
+}
+.radio{width:300px;
+	background-color: black;
+	height:50px;
+	margin-right: 100px;
+	float: right;
+}
+
+
