@@ -45,7 +45,7 @@ margin:20px;
 }
 .umetni{height: 100px;}
 
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
   #upis{
     margin-top: 50px;
     display: flex;
@@ -73,4 +73,5 @@ margin:20px;
     background-color: #5b5fba;
   }
 
-}
+}*/
+.container{ height:100vh; }
