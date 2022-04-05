@@ -1,0 +1,46 @@
+#upis{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+width:80%;
+height: auto;
+margin:auto;
+padding: 20px;
+border: 3px solid black;
+border-radius: 5px;
+background-color: #5b5fba;
+opacity: 10%;
+
+}
+#upis:hover{
+  opacity: 90%;
+  transition:4s;
+}
+
+h1{margin-left: 50%;}
+
+.dobrodoslica{
+  margin-top: 40px;
+  color:blue;
+}
+body  {
+  background-image: url("citta-di-pescara-1.jpg");
+  background-color: #cccccc;
+
+  background-repeat: no-repeat;
+}
+
+.white{
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#gumb{
+margin:20px;
+}
+.umetni{height: 100px;}
