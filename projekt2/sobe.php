@@ -100,7 +100,7 @@ echo "<p>$_POST[bandb]</p>";
 echo "<p>$_POST[tv]</p>";
 echo "<p>$_POST[klima]</p>";
 echo "<p>".$cena."</p>";
-
+echo "<div>".$_POST['mapa']."</div>";
 
  ?>
 </body>
