@@ -42,8 +42,9 @@ Klima: <br>
 ima klime <input type="radio" name="klima" value="Ima klime">
 <br>nema klime <input type="radio" name="klima" value="nema klime"><br><hr><br>
 
-Mapa: <br>
-//to DO maps and rename pictures
+  Mapa: <br>
+  Na google maps naci i uneti kod za ugradnju
+  <input type="text" name="mapa" value="" placeholder="mapa">
 
 
   <!--<input id="opis" type="textarea" name="opis" value="" ><br>-->
