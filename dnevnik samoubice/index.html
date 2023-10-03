@@ -55,6 +55,16 @@ Tako su vampire nekad terali belim lukom. Znači to je drevna vanzemaljska boles
 
 
 </div>
+<div id="mySidebox3" class="sidebox">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+<h3>Lockdown</h3>
+<p>
+Saopštila sam programerima da prolazimo kroz crnu rupu i da je važno da svi budu zatvoreni u kućama da ne bi uleteli u pogrešno vreme i prostor..što se inače dešava pri prolasku kroz crnu rupu, usled velike gravitacije.  Ja ne izlazim iz kuće. Ne sviđa mi se vreme i prostor u kojem sam. Ovo je neki moj treći ili četvrti život, tj. paralelni svet. Ne govorim o reinkarnaciji već o tome kako posle smrti uletimo u neki paralelni svet po našem izboru. Negde gde su nam važne stvari iste i nepromenjene. Ovde umremo, tamo nastavimo. I te male sitne razlike su tu kao dokaz. Mendela efekat!! Neke stvari su različite. U mojim prethodnim paalelnim svetovima davno je bio kraj sveta. Ovim ovde kraj se već vuče. Molitvama se odlaže. Ali je svejedno blizu.
+i Novi Zeland je nekad bio severoistočno od Australije.</p>
+
+
+</div>
+	
 
 <script>
 function openNav() {
@@ -73,6 +83,7 @@ function closeNav1() {
 function openNav2() {
   document.getElementById("mySidebox2").style.width = "350px";
 	closeNav1();
+	closeNav3();
 }
 
 function closeNav2() {
@@ -81,8 +92,17 @@ function closeNav2() {
 function openNav1() {
   document.getElementById("mySidebox1").style.width = "350px";
 	closeNav2();
+	closeNav3()
+}
+function openNav3() {
+  document.getElementById("mySidebox3").style.width = "350px";
+	closeNav1();
+	closeNav2()
 }
 
+function closeNav3() {
+  document.getElementById("mySidebox3").style.width = "0";
+}
 </script>
 </body>
 </html>
