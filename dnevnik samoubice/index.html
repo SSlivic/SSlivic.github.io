@@ -34,7 +34,7 @@
   <a href="#mySidebox1"><span style="font-size:30px;cursor:pointer" onclick="openNav1()">Svemirci dolaze</span></a>
   <a href="#mySidebox2"><span style="font-size:30px;cursor:pointer" onclick="openNav2()">Antivakser</span></a>
   <a href="#mySidebox3"><span style="font-size:30px;cursor:pointer" onclick="openNav3()">Crna rupa</a>
-  <a href="#">Deda mraz</a>
+  <a href="#mySidebox4"><span style="font-size:30px;cursor:pointer" onclick="openNav4()">Super četvorka</a>
   
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">Pa da počnemo...CLICK </span><br>
@@ -64,8 +64,9 @@ i Novi Zeland je nekad bio severoistočno od Australije.</p>
 
 
 </div>
-	
-
+	<div id="mySidebox4" class="sidebox">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+	</div>
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "350px";
@@ -84,6 +85,7 @@ function openNav2() {
   document.getElementById("mySidebox2").style.width = "350px";
 	closeNav1();
 	closeNav3();
+	closeNav4();
 }
 
 function closeNav2() {
@@ -92,16 +94,29 @@ function closeNav2() {
 function openNav1() {
   document.getElementById("mySidebox1").style.width = "350px";
 	closeNav2();
-	closeNav3()
+	closeNav3();
+	closeNav4();
 }
 function openNav3() {
   document.getElementById("mySidebox3").style.width = "350px";
 	closeNav1();
-	closeNav2()
+	closeNav2():
+	closeNav4();
 }
 
 function closeNav3() {
   document.getElementById("mySidebox3").style.width = "0";
+}
+
+	function openNav4() {
+  document.getElementById("mySidebox4").style.width = "350px";
+	closeNav1();
+	closeNav2();
+	closeNav3();
+}
+
+function closeNav4() {
+  document.getElementById("mySidebox4").style.width = "0";
 }
 </script>
 </body>
