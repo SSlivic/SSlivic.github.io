@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lista</title>
+    <style media="screen">
+      body{
+        margin:10px;
+        padding:20px;
+
+      }
+      p{
+        text-size=1.6em;
+      }
+      #slika1{
+        position:fixed;
+        right: 30px;
+        bottom:50px;
+      }
+      #slika2{
+        position:fixed;
+        right: 30px;
+        bottom:20px;
+      }
+    </style>
+  </head>
+  <body><h1 id="up">Дискусије о Свевишњем</h1>
+    <h3>Здраво, <?php echo $_SESSION['name']; ?></h3>
+    <hr>
+
+    <form class="" action="" method="post">
+      <input type="text" name="ime" value="" placeholder="име">
+      <br><br>
+      <textarea name="sporocilo" value="" placeholder="текст" rows="4" cols="50" required></textarea>
+      <br><br>
+      <input type="submit" name="submit" value="Пошаљи">
+    </form>
+
+
+     
+
+<footer id="down"></footer>
+<a href="#up" id="slika1">up</a>
+<a href="#down" id="slika2">down<a>
+
+<a href="mailto:sanja.slivic@gmail.com,ekatarina.mala.ss@gmail.com">Send me an email</a> 
+
+  </body>
+</html>
